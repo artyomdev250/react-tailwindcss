@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #1DA1F2;
+    --breakpoint-desk: 1110px;
+}
+
+@layer components {
+    .card {
+        @apply bg-white max-w-[400px] p-[25px] rounded-xl md:m-auto lg:max-w-[500px] desk:bg-blue-50;
+    }
+
+    .btn {
+        @apply bg-blue-100 cursor-pointer font-bold text-[15px] mt-[20px] text-blue-900 py-[10px] px-[20px] rounded-[10px]
+    }
+}
