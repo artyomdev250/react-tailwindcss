@@ -12,6 +12,6 @@
 
 @layer {
     .icon {
-        @apply rounded-full p-[8px] border-2 border-gray-200 relative;
+        @apply rounded-full cursor-pointer p-[8px] border-2 border-gray-200 relative;
     }
 }
