@@ -9,3 +9,9 @@
     --breakpoint-s-mobile: 375px;
     --breakpoint-b-desk: 1500px;
 }
+
+@layer {
+    .icon {
+        @apply rounded-full p-[8px] border-2 border-gray-200 relative;
+    }
+}
