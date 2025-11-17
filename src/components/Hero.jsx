@@ -16,7 +16,7 @@ function Hero() {
             id: 2,
             bgColor: "bg-blue-600",
             bgImage: "/BG2.png",
-            title: "Easy way to rent a car at a low price",
+            title: "Easy Way To Rent a Car At a Low Price",
             text: "Providing cheap car rental services and safe and comfortable facilities.",
             btnColor: "bg-blue-400",
             carImage: "/Car2.png",
@@ -31,7 +31,7 @@ function Hero() {
                     key={card.id}
                     className={`
                         ${card.bgColor}
-                        p-[16px] rounded-[10px] relative overflow-hidden
+                        p-[24px] rounded-[10px] relative overflow-hidden
                         ${card.hiddenOnMobile ? "hidden lg:block mt-[20px] lg:mt-0" : ""}
                     `}
                     style={{
@@ -50,7 +50,7 @@ function Hero() {
                     </p>
 
                     <button
-                        className={`px-[28px] py-[14px] text-[14px] cursor-pointer rounded-[10px] relative z-10 ${card.btnColor}`}
+                        className={`px-[28px] py-[14px] text-[14px] font-semibold cursor-pointer rounded-[10px] relative z-10 ${card.btnColor}`}
                     >
                         Rental Car
                     </button>
