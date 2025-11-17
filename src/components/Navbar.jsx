@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Navbar() {
     return (
         <div className='p-[24px] bg-white lg:border-b-2 border-gray-200'>
@@ -16,7 +14,7 @@ function Navbar() {
                         </svg>
                         <input type="text" className='outline-0 w-full text-gray-800' placeholder='Search something here...' />
                     </div>
-                    <button className='flex p-[12px] border-2 border-gray-200 rounded-2xl lg:p-[10px]'>
+                    <button className='flex p-[12px] cursor-pointer border-2 border-gray-200 rounded-2xl lg:p-[10px]'>
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M22 6.5H16" stroke="#596780" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M6 6.5H2" stroke="#596780" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
