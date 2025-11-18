@@ -81,7 +81,7 @@ function Filter() {
             {/* SWAP BUTTON */}
             <button
                 onClick={swapValues}
-                className='outline-none shadow-2xl shadow-gray-400 border-none bg-blue-600 w-fit p-[18px] rounded-[13px] flex cursor-pointer absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] md-desk:static md-desk:translate-x-0 md-desk:translate-y-0'
+                className='outline-none shadow-2xl shadow-gray-400 border-2 border-blue-400 bg-blue-600 w-fit p-[18px] rounded-[13px] flex cursor-pointer absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] md-desk:static md-desk:translate-x-0 md-desk:translate-y-0'
             >
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.16124 3.83632L7.16124 17.4541" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
