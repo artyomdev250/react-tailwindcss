@@ -19,7 +19,7 @@ function Filter() {
     };
 
     return (
-        <div className='px-6 mb-8 flex flex-col gap-11 relative md-desk:flex-row md-desk:items-center md-desk:justify-center md-desk:gap-6 b-desk:w-[1250px] b-desk:mx-auto b-desk:px-0'>
+        <div className='px-6 mb-9 flex flex-col gap-11 relative md-desk:flex-row md-desk:items-center md-desk:justify-center md-desk:gap-6 b-desk:w-[1250px] b-desk:mx-auto b-desk:px-0'>
 
             {/* PICKUP */}
             <div className='p-4 bg-white rounded-[10px] md-desk:w-full border-gray-200 border-2'>
