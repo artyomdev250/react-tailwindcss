@@ -8,10 +8,33 @@
 @theme {
     --breakpoint-s-mobile: 375px;
     --breakpoint-b-desk: 1500px;
+    --breakpoint-md-desk: 1000px;
 }
 
 @layer {
     .icon {
-        @apply rounded-full cursor-pointer p-[8px] border-2 border-gray-200 relative;
+        @apply rounded-full cursor-pointer p-2 border-2 border-gray-200 relative;
     }
+
+    .inpt {
+        @apply w-[82.5px] text-[14px] text-gray-400 outline-none;
+    }
+}
+
+/* Remove default icon for date */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    display: none;
+}
+
+/* Remove default icon for time */
+input[type="time"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    display: none;
+}
+
+/* Optional: remove spin buttons (time) */
+input[type="time"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-clear-button {
+    display: none;
 }

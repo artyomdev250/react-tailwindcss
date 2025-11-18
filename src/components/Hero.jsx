@@ -9,6 +9,7 @@ function Hero() {
             title: "The Best Platform for Car Rental",
             text: "Ease of doing a car rental safely and reliably. Of course at a low price.",
             btnColor: "bg-blue-600",
+            borderColor: "border-blue-600",
             carImage: "/Car.png",
             hiddenOnMobile: false,
         },
@@ -19,6 +20,7 @@ function Hero() {
             title: "Easy Way To Rent a Car At a Low Price",
             text: "Providing cheap car rental services and safe and comfortable facilities.",
             btnColor: "bg-blue-400",
+            borderColor: "border-blue-400",
             carImage: "/Car2.png",
             hiddenOnMobile: true,
         },
@@ -31,7 +33,7 @@ function Hero() {
                     key={card.id}
                     className={`
                         ${card.bgColor}
-                        p-6 rounded-[10px] relative overflow-hidden
+                        p-6 rounded-[10px] relative overflow-hidden border-2 ${card.borderColor}
                         ${card.hiddenOnMobile ? "hidden lg:block mt-5 lg:mt-0" : ""}
                     `}
                     style={{
