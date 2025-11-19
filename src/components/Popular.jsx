@@ -1,6 +1,6 @@
 import { usePopularCars } from '../hooks/usePopularCars';
 import { useToggleLike } from '../hooks/useToggleLike';
-import Car from './Car';
+import Car from './ui/Car';
 
 function Popular() {
     const { cars, setCars } = usePopularCars();
