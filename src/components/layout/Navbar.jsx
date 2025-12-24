@@ -1,5 +1,7 @@
 function Navbar() {
     return (
+
+        // Navbar comment
         <div className='p-6 bg-white lg:border-b-2 border-gray-200'>
             <div className='flex flex-col gap-[25px] lg:flex-row lg:items-center b-desk:w-[1250px] b-desk:m-auto'>
                 <div className='flex items-center justify-between'>
